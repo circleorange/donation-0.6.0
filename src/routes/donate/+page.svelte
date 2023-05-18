@@ -18,7 +18,7 @@
   });
 
   latestDonation.subscribe(async (donation) => {
-    donations = await donationService.getDonations();
+        donations = await donationService.getDonations();
   });
 </script>
 
